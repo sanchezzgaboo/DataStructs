@@ -1,0 +1,14 @@
+# Ignore build artifacts
+*.exe
+*.o
+
+# Ignore the object files directory
+/obj/
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini

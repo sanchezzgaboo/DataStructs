@@ -11,13 +11,13 @@ private:
 public:
     single_linked_list(/* args */);
     int get_size();
-    //bool is_empty();
-    //double get_element(int pos);
-    //double get_first();
-    //double get_last();
-    //bool is_present(double element);
+    bool is_empty();
+    double get_element(int pos);
+    double get_first();
+    double get_last();
+    bool is_present(double element);
     void add_first(double element);
-    //void add_last(double element);
+    void add_last(double element);
     //double remove_first();
     //double remove_last();
     //int get_index(double element);
