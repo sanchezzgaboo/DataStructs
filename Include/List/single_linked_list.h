@@ -18,6 +18,7 @@ public:
     bool is_present(double element);
     void add_first(double element);
     void add_last(double element);
+    //TODO
     //double remove_first();
     //double remove_last();
     //int get_index(double element);
