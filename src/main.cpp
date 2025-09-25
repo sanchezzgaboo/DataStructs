@@ -8,5 +8,6 @@ int main(int argc, char *argv[]){
     test.add_last(5);
 
     test.print();
+    std::cout << "size: " <<test.get_size() << std::endl;
     return 0;
 }

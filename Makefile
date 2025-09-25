@@ -1,8 +1,8 @@
 CXX = g++
 CXXFLAGS = -Wall $(INCLUDES)
 
-# Add Include/ and its subdirectories
-INCLUDES = -IInclude -IInclude/List -IInclude/Graph -IInclude/Tree
+# Automatically collect all include subdirectories
+INCLUDES = $(foreach dir,$(wildcard Include/*),-I$(dir)) -IInclude
 
 # Collect sources (all .cpp in src/ and subfolders)
 SRC = $(wildcard src/*.cpp src/*/*.cpp)
